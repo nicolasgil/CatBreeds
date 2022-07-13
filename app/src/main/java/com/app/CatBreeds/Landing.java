@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.catbreeds.adapter.AdapterLandig;
-import com.app.catbreeds.model.ModelLanding;
-import com.app.catbreeds.network.ClientInstance;
-import com.app.catbreeds.network.GetDataService;
+import com.app.CatBreeds.adapter.AdapterLandig;
+import com.app.CatBreeds.model.ModelLanding;
+import com.app.CatBreeds.network.ClientInstance;
+import com.app.CatBreeds.network.GetDataService;
 import com.google.gson.JsonElement;
 
 import java.util.List;

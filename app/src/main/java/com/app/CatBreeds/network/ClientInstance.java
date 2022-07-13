@@ -1,4 +1,4 @@
-package com.app.catbreeds.network;
+package com.app.CatBreeds.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

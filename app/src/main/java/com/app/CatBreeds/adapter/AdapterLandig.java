@@ -1,4 +1,4 @@
-package com.app.catbreeds.adapter;
+package com.app.CatBreeds.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.catbreeds.R;
-import com.app.catbreeds.model.ModelLanding;
+import com.app.CatBreeds.R;
+import com.app.CatBreeds.model.ModelLanding;
 import com.bumptech.glide.Glide;
 import com.google.gson.JsonElement;
 
