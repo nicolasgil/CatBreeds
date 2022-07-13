@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.CatBreeds.R;
 import com.app.CatBreeds.model.ModelLanding;
+import com.app.catbreeds.R;
 import com.bumptech.glide.Glide;
 import com.google.gson.JsonElement;
 
