@@ -18,7 +18,7 @@ public class Detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         TextView tv_scroll = findViewById(R.id.tv_scroll);
-        TextView tv_breeds =  findViewById(R.id.tv_breeds);
+        TextView tv_breeds = findViewById(R.id.tv_breeds);
         ImageView img_detail = findViewById(R.id.img_detail);
 
         Intent intent = getIntent();

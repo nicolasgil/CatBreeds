@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.CatBreeds.adapter.AdapterLandig;
-import com.app.CatBreeds.model.ModelLanding;
-import com.app.CatBreeds.network.ClientInstance;
-import com.app.CatBreeds.network.GetDataService;
+import com.app.catbreeds.adapter.AdapterLandig;
+import com.app.catbreeds.model.ModelLanding;
+import com.app.catbreeds.network.ClientInstance;
+import com.app.catbreeds.network.GetDataService;
 import com.google.gson.JsonElement;
 
 import java.util.List;
@@ -75,9 +75,8 @@ public class Landing extends AppCompatActivity implements SearchView.OnQueryText
                 String urlString;
                 if (listLanding.get(recyclerLanding.getChildAdapterPosition(v)).getImage() != null) {
                     JsonElement url = listLanding.get(recyclerLanding.getChildAdapterPosition(v)).getImage().get("url");
-                    urlString= url.getAsString().replace("\"\"", "\"");
-                }
-                else{
+                    urlString = url.getAsString().replace("\"\"", "\"");
+                } else {
                     urlString = "http://www.allianceplast.com/wp-content/uploads/no-image.png";
                 }
                 intent.putExtra("image", urlString);

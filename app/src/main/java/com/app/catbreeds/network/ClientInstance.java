@@ -1,12 +1,12 @@
-package com.app.CatBreeds.network;
+package com.app.catbreeds.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ClientInstance {
 
-    private static Retrofit retrofit;
     private static final String BASE_URL = "https://api.thecatapi.com";
+    private static Retrofit retrofit;
 
     public static Retrofit getInstanceRetrofit() {
         if (retrofit == null) {

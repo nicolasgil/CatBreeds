@@ -1,4 +1,4 @@
-package com.app.CatBreeds.adapter;
+package com.app.catbreeds.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.app.CatBreeds.model.ModelLanding;
+import com.app.catbreeds.model.ModelLanding;
 import com.app.catbreeds.R;
 import com.bumptech.glide.Glide;
 import com.google.gson.JsonElement;
@@ -31,21 +31,6 @@ public class AdapterLandig extends RecyclerView.Adapter<AdapterLandig.LandingVie
         this.listRecycler = listRecycler;
         listPrincipal = new ArrayList<>();
         listPrincipal.addAll(listRecycler);
-    }
-
-    public static class LandingViewHolder extends RecyclerView.ViewHolder {
-        public ImageView img;
-        public TextView breeds;
-        public TextView country;
-        public TextView intelligence;
-
-        public LandingViewHolder(View v) {
-            super(v);
-            img = v.findViewById(R.id.img);
-            breeds = v.findViewById(R.id.breeds);
-            country = v.findViewById(R.id.country);
-            intelligence = v.findViewById(R.id.intelligence);
-        }
     }
 
     @Override
@@ -112,6 +97,21 @@ public class AdapterLandig extends RecyclerView.Adapter<AdapterLandig.LandingVie
             }
         }
         notifyDataSetChanged();
+    }
+
+    public static class LandingViewHolder extends RecyclerView.ViewHolder {
+        public ImageView img;
+        public TextView breeds;
+        public TextView country;
+        public TextView intelligence;
+
+        public LandingViewHolder(View v) {
+            super(v);
+            img = v.findViewById(R.id.img);
+            breeds = v.findViewById(R.id.breeds);
+            country = v.findViewById(R.id.country);
+            intelligence = v.findViewById(R.id.intelligence);
+        }
     }
 
 

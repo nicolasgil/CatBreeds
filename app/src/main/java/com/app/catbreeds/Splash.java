@@ -1,16 +1,12 @@
 package com.app.catbreeds;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.ImageView;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Splash extends AppCompatActivity {
-
-    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

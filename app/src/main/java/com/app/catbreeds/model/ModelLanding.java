@@ -1,4 +1,4 @@
-package com.app.CatBreeds.model;
+package com.app.catbreeds.model;
 
 import com.google.gson.JsonObject;
 
