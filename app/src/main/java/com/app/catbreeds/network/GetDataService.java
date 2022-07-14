@@ -1,6 +1,6 @@
-package com.app.CatBreeds.network;
+package com.app.catbreeds.network;
 
-import com.app.CatBreeds.model.ModelLanding;
+import com.app.catbreeds.model.ModelLanding;
 
 import java.util.List;
 
